@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="school" class="c_quickstart_inject_attribute.bean.School" >
+        <property name="schoolName" value="风华书院"/>
+        <property name="teacher" ref="teacher"/>
+    </bean>
+
+    <bean id="teacher" class="c_quickstart_inject_attribute.bean.Teacher">
+        <property name="teacherAge" value="25"/>
+        <property name="teacherName" value="你的名字"/>
+    </bean>
+
+
+</beans>
