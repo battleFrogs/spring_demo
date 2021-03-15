@@ -11,4 +11,9 @@
     <!-- 开启注解配置 -->
     <context:annotation-config/>
     <bean class="f_anno_or_xml.bean.AnnotationConfigConfiguration"/>
+
+
+    <bean id="person" class="f_anno_or_xml.bean.Person"/>
+
+
 </beans>

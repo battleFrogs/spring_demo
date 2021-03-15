@@ -7,8 +7,9 @@ import org.springframework.context.annotation.ImportResource;
  * 在注解上使用xml文件
  */
 @Configuration
-@ImportResource("classPath:xx.xml")
+@ImportResource("classpath:basic_dl/anno_or_xml.xml")
 public class ImportXmlAnnotationConfiguration {
+
 
 
 }
