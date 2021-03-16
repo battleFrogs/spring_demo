@@ -48,4 +48,11 @@ public class Dog {
         this.person = person;
         return this;
     }
+
+    @Override
+    public String toString() {
+        return "Dog{" +
+                "person=" + person +
+                '}';
+    }
 }
