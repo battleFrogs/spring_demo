@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- xml的set注入 -->
+<!--    <bean id="person" class="g_inject_type.bean.Person">-->
+<!--        <property name="name" value="gjc"/>-->
+<!--        <property name="age" value="25"/>-->
+<!--    </bean> -->
+
+    <!-- xml的构造器注入 -->
+    <bean id="person" class="g_inject_type.bean.Person">
+        <constructor-arg index="0" value="ggg"/>
+        <constructor-arg index="1" value="26"/>
+    </bean>
+
+
+</beans>
