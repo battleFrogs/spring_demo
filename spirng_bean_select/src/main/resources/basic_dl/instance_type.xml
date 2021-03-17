@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 静态工厂创建Bean -->
+<!--    <bean id="ball1" class="l_instance_type.bean.Ball" >-->
+<!--        <constructor-arg name="name" value="ball1"/>-->
+<!--    </bean>-->
+<!--    <bean id="ball2" class="l_instance_type.config.BallStaticFactroyBean" factory-method="getBall"/>-->
+
+    <!-- 实例工厂创建Bean -->
+    <bean id="ballFactory" class="l_instance_type.config.BallInstanceFactroyBean" />
+    <bean id="ball3" class="l_instance_type.bean.Ball" factory-bean="ballFactory" factory-method="getBall"/>
+
+
+
+
+</beans>
