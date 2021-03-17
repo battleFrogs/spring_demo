@@ -6,6 +6,7 @@
     <modules>
         <module>web_servlet</module>
         <module>spirng_bean_select</module>
+        <module>spring_bean_life</module>
     </modules>
 
     <groupId>com.gjc</groupId>
