@@ -8,6 +8,7 @@
         <module>spirng_bean_select</module>
         <module>spring_bean_life</module>
         <module>spring_listen</module>
+        <module>spring_bean_load</module>
     </modules>
 
     <groupId>com.gjc</groupId>
