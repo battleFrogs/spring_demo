@@ -9,6 +9,7 @@
         <module>spring_bean_life</module>
         <module>spring_listen</module>
         <module>spring_bean_load</module>
+        <module>spring_bean_scan</module>
     </modules>
 
     <groupId>com.gjc</groupId>
